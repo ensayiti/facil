@@ -22,4 +22,35 @@
             </div>
         </div>
     </section>
+
+    <section class="bg-foreground">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+            <div class="max-w-screen-md mb-8 lg:mb-8">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-primary-foreground">Designed for business teams like yours</h2>
+                <p class="text-primary-foreground sm:text-xl">Here at blablablablabla</p>
+            </div>
+            <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+                <div class="bg-card rounded-xl p-2">
+                    <h3 class="flex justify-center items-center text-primary mb-1 text-xl font-bold">
+                        Easy to Use
+                    </h3>
+                    <p class="text-primary tracking-tighter leading-tight">Plan it, create it, launch it. Collaborate seamlessly with all  the organization and hit your marketing goals every month with our marketing plan.</p>
+                </div>
+
+                <div class="bg-card rounded-xl p-2">
+                    <h3 class="flex justify-center items-center text-primary mb-1 text-xl font-bold">
+                        Customizable
+                    </h3>
+                    <p class="text-primary tracking-tighter leading-tight">Plan it, create it, launch it. Collaborate seamlessly with all  the organization and hit your marketing goals every month with our marketing plan.</p>
+                </div>
+
+                <div class="bg-card rounded-xl p-2">
+                    <h3 class="flex justify-center items-center text-primary mb-1 text-xl font-bold">
+                        Fast
+                    </h3>
+                    <p class="text-primary tracking-tighter leading-tight">Plan it, create it, launch it. Collaborate seamlessly with all  the organization and hit your marketing goals every month with our marketing plan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 @stop
