@@ -45,8 +45,8 @@
                     <div class="fixed top-0 left-0 z-40 items-center hidden w-full h-full p-3 text-sm bg-gray-900 bg-opacity-50 md:w-auto md:bg-transparent md:p-0 md:relative md:flex" :class="{'flex': showMenu, 'hidden': !showMenu }">
                         <div class="flex-col items-center w-full h-full p-3 overflow-hidden bg-black bg-opacity-50 rounded-lg select-none md:p-0 backdrop-blur-lg md:h-auto md:bg-transparent md:rounded-none md:relative md:flex md:flex-row md:overflow-auto">
                             <div class="flex flex-col items-center justify-end w-full h-full pt-2 md:w-full md:flex-row md:py-0">
-                                <a href="/admin" class="w-full py-5 mr-0 text-center text-gray-200 md:py-3 md:w-auto hover:text-white md:pl-0 md:mr-3 lg:mr-5">Sign In</a>
-                                <a href="#_" class="inline-flex items-center justify-center w-full px-4 py-3 md:py-1.5 font-medium leading-6 text-center whitespace-no-wrap transition duration-150 ease-in-out border border-transparent md:mr-1 text-gray-600 md:w-auto bg-white rounded-lg md:rounded-full hover:bg-white focus:outline-none focus:border-gray-700 focus:shadow-outline-gray active:bg-gray-700">Sign Up</a>
+                                {{-- <a href="/admin" class="w-full py-5 mr-0 text-center text-gray-200 md:py-3 md:w-auto hover:text-white md:pl-0 md:mr-3 lg:mr-5">Sign In</a> --}}
+                                <a href="/admin" class="inline-flex items-center justify-center w-full px-4 py-3 md:py-1.5 font-medium leading-6 text-center whitespace-no-wrap transition duration-300 ease-in-out border border-white md:mr-1 text-gray-600 md:w-auto bg-white rounded-lg md:rounded-full hover:bg-transparent hover:text-white focus:outline-none focus:border-gray-700 focus:shadow-outline-gray active:bg-gray-700">Sign In</a>
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
             </nav>
             <div class="container px-6 py-44 lg:py-32 mx-auto md:text-center md:px-4">
                 <h1 class="text-4xl font-extrabold leading-none leading-10 tracking-tight text-white sm:text-5xl md:text-6xl xl:text-7xl"><span class="block">Manage your </span> <span class="relative inline-block mt-3 text-white">business easily</span></h1>
-                <p class="mx-auto mt-6 text-sm text-left text-gray-200 md:text-center md:mt-12 sm:text-base md:max-w-xl md:text-lg xl:text-xl">If you are ready to change the way you design websites, then you'll want to use our block builder to make it fun and easy!</p>
+                <p class="mx-auto mt-6 text-sm text-left text-gray-200 md:text-center md:mt-12 sm:text-base md:max-w-xl md:text-lg xl:text-xl">This web application was built to make it easier for you as a businessman. Can work quickly, precisely, and accurately!</p>
             </div>
         </div>
     </section>
@@ -80,20 +80,21 @@
             <!-- Content -->
             <div class="box-border order-first w-full text-white border-solid md:w-1/2 md:pl-10 md:order-none">
                 <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
-                    Boost Productivity
+                    Easy to Use
                 </h2>
                 <p class="pt-4 pb-8 m-0 leading-7 text-white border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-lg">
-                    Build an atmosphere that creates productivity in your organization and your company culture.
+                    Build your experience as a user more enjoyable than ever.
                 </p>
                 <ul class="p-0 m-0 leading-6 border-0 border-gray-300">
                     <li class="box-border relative py-1 pl-0 text-left text-white border-solid">
-                        <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-black bg-white rounded-full" data-primary="black"><span class="text-sm font-bold">✓</span></span> Maximize productivity and growth
+                        <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-black bg-white rounded-full" data-primary="black"><span class="text-sm font-bold">✓</span></span> Easy to navigate
                     </li>
                     <li class="box-border relative py-1 pl-0 text-left text-white border-solid">
-                        <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-black bg-white rounded-full" data-primary="black"><span class="text-sm font-bold">✓</span></span> Speed past your competition
+                        <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-black bg-white rounded-full" data-primary="black"><span class="text-sm font-bold">✓</span></span>
+                        Designed with responsive design
                     </li>
                     <li class="box-border relative py-1 pl-0 text-left text-white border-solid">
-                        <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-black bg-white rounded-full" data-primary="black"><span class="text-sm font-bold">✓</span></span> Learn the top techniques
+                        <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-black bg-white rounded-full" data-primary="black"><span class="text-sm font-bold">✓</span></span> Dark Mode Support
                     </li>
                 </ul>
             </div>
@@ -104,17 +105,17 @@
             <!-- Content -->
             <div class="box-border w-full text-white border-solid md:w-1/2 md:pl-6 xl:pl-32">
                 <h2 class="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
-                    Automated Tasks
+                    All-in-One
                 </h2>
                 <p class="pt-4 pb-8 m-0 leading-7 text-white border-0 border-gray-300 sm:pr-10 lg:text-lg">
-                    Save time and money with our revolutionary services. We are the leaders in the industry.
+                    Save your time not building two different types of websites.
                 </p>
                 <ul class="p-0 m-0 leading-6 border-0 border-gray-300">
                     <li class="box-border relative py-1 pl-0 text-left text-white border-solid">
-                        <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-black bg-white rounded-full" data-primary="black"><span class="text-sm font-bold">✓</span></span> Automated task management workflow
+                        <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-black bg-white rounded-full" data-primary="black"><span class="text-sm font-bold">✓</span></span> Landing Page
                     </li>
                     <li class="box-border relative py-1 pl-0 text-left text-white border-solid">
-                        <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-black bg-white rounded-full" data-primary="black"><span class="text-sm font-bold">✓</span></span> Detailed analytics for your data
+                        <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-black bg-white rounded-full" data-primary="black"><span class="text-sm font-bold">✓</span></span> Admin Dashboard
                     </li>
                     <li class="box-border relative py-1 pl-0 text-left text-white border-solid">
                         <span class="inline-flex items-center justify-center w-6 h-6 mr-2 text-black bg-white rounded-full" data-primary="black"><span class="text-sm font-bold">✓</span></span> Some awesome integrations
@@ -139,27 +140,19 @@
             </h3>
             <div class="w-full px-6 py-6 mx-auto mt-10 bg-transparent border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3" data-rounded="rounded-lg" data-rounded-max="rounded-full">
                 <h3 class="text-lg font-bold text-white sm:text-xl md:text-2xl" data-primary="purple-500">How does it work?</h3>
-                <p class="mt-2 text-base text-gray-200 sm:text-lg md:text-normal">
-                    Our platform works with your content to provides insights and metrics on how you can grow your business and scale your infastructure.
-                </p>
+                <p class="mt-2 text-base text-gray-200 sm:text-lg md:text-normal">You can clone or download files from the repository and make some changes to the configuration files.</p>
             </div>
             <div class="w-full px-6 py-6 mx-auto mt-10 bg-transparent border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3" data-rounded="rounded-lg" data-rounded-max="rounded-full">
-                <h3 class="text-lg font-bold text-white sm:text-xl md:text-2xl" data-primary="purple-500">Do you offer team pricing?</h3>
-                <p class="mt-2 text-base text-gray-200 sm:text-lg md:text-normal">
-                    Yes, we do! Team pricing is available for any plan. You can take advantage of 30% off for signing up for team pricing of 10 users or more.
-                </p>
+                <h3 class="text-lg font-bold text-white sm:text-xl md:text-2xl" data-primary="purple-500">Is it free?</h3>
+                <p class="mt-2 text-base text-gray-200 sm:text-lg md:text-normal">Yes! It's 100% free. But you can Buy Me a Coffee :D</p>
             </div>
             <div class="w-full px-6 py-6 mx-auto mt-10 bg-transparent border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3" data-rounded="rounded-lg" data-rounded-max="rounded-full">
-                <h3 class="text-lg font-bold text-white sm:text-xl md:text-2xl" data-primary="purple-500">How do I make changes and configure my site?</h3>
-                <p class="mt-2 text-base text-gray-200 sm:text-lg md:text-normal">
-                    You can easily change your site settings inside of your site dashboard by clicking the top right menu and clicking the settings button.
-                </p>
+                <h3 class="text-lg font-bold text-white sm:text-xl md:text-2xl" data-primary="purple-500">How do I configure and deploy to my site?</h3>
+                <p class="mt-2 text-base text-gray-200 sm:text-lg md:text-normal">This web application is built with Laravel 10 and Vite. So you can consult the Vite and Laravel documentation for the deployment steps.</p>
             </div>
             <div class="w-full px-6 py-6 mx-auto mt-10 bg-transparent border border-gray-200 rounded-lg sm:px-8 md:px-12 sm:py-8 sm:shadow lg:w-5/6 xl:w-2/3" data-rounded="rounded-lg" data-rounded-max="rounded-full">
-                <h3 class="text-lg font-bold text-white sm:text-xl md:text-2xl" data-primary="purple-500">How do I add a custom domain?</h3>
-                <p class="mt-2 text-base text-gray-200 sm:text-lg md:text-normal">
-                    You can easily change your site settings inside of your site dashboard by clicking the top right menu and clicking the settings button.
-                </p>
+                <h3 class="text-lg font-bold text-white sm:text-xl md:text-2xl" data-primary="purple-500">What tech stack is used in this project</h3>
+                <p class="mt-2 text-base text-gray-200 sm:text-lg md:text-normal">This project is built with Laravel, Vite, and MySQL.</p>
             </div>
         </div>
     </section>
