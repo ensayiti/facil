@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Filament\Resources\CustomerResource\Pages;
+namespace App\Filament\Resources\InventoryResource\Pages;
 
-use App\Filament\Resources\CustomerResource;
+use App\Filament\Resources\InventoryResource;
 use Filament\Actions;
 use Filament\Resources\Pages\CreateRecord;
 
-class CreateCustomer extends CreateRecord
+class CreateInventory extends CreateRecord
 {
-    protected static string $resource = CustomerResource::class;
+    protected static string $resource = InventoryResource::class;
 
     protected function getRedirectUrl(): string
     {
@@ -17,6 +17,6 @@ class CreateCustomer extends CreateRecord
 
     protected function getCreatedNotificationTitle(): ?string
     {
-        return 'Customer successfully registered!';
+        return 'Item has been added to Inventory!';
     }
 }
