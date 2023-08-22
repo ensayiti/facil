@@ -24,3 +24,7 @@ Route::get('/feature', function () {
 Route::get('/contact', function () {
     return view('pages.contact');
 });
+
+Route::get('/success', function () {
+    return view('pages.success');
+});
