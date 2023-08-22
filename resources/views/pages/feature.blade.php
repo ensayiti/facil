@@ -64,8 +64,8 @@
                             class="flex-col items-center w-full h-full p-3 overflow-hidden bg-black bg-opacity-50 rounded-lg select-none md:p-0 backdrop-blur-lg md:h-auto md:bg-transparent md:rounded-none md:relative md:flex md:flex-row md:overflow-auto">
                             <div
                                 class="flex flex-col items-center justify-end w-full h-full pt-2 md:w-full md:flex-row md:py-0">
-                                <a href="/admin" class="w-full py-5 mr-0 text-center text-gray-200 md:py-3 md:w-auto hover:text-white md:pl-0 md:mr-3 lg:mr-5">Sign In</a>
-                                <a href="#_" class="inline-flex items-center justify-center w-full px-4 py-3 md:py-1.5 font-medium leading-6 text-center whitespace-no-wrap transition duration-150 ease-in-out border border-transparent md:mr-1 text-gray-600 md:w-auto bg-white rounded-lg md:rounded-full hover:bg-white focus:outline-none focus:border-gray-700 focus:shadow-outline-gray active:bg-gray-700">Sign Up</a>
+                                {{-- <a href="/admin" class="w-full py-5 mr-0 text-center text-gray-200 md:py-3 md:w-auto hover:text-white md:pl-0 md:mr-3 lg:mr-5">Sign In</a> --}}
+                                <a href="/admin" class="inline-flex items-center justify-center w-full px-4 py-3 md:py-1.5 font-medium leading-6 text-center whitespace-no-wrap transition duration-300 ease-in-out border border-white md:mr-1 text-gray-600 md:w-auto bg-white rounded-lg md:rounded-full hover:bg-transparent hover:text-white focus:outline-none focus:border-gray-700 focus:shadow-outline-gray active:bg-gray-700">Sign In</a>
                             </div>
                         </div>
                     </div>
@@ -129,85 +129,52 @@
                 <div class="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0">
                     <div class="relative flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 overflow-hidden bg-transparent border border-white rounded-xl sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">
                         <div class="p-3 text-black bg-white rounded-full" data-primary="blue-500" data-rounded="rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <path d="M14 3v4a1 1 0 0 0 1 1h4" />
-                                <path d="M5 8v-3a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-5" />
-                                <circle cx="6" cy="14" r="3" />
-                                <path d="M4.5 17l-1.5 5l3 -1.5l3 1.5l-1.5 -5" />
-                            </svg>
+                            <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-check"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><polyline points="16 11 18 13 22 9"/></svg>
                         </div>
-                        <h4 class="text-xl font-medium text-white">Certifications</h4>
-                        <p class="text-base text-center text-gray-200">Each of our plan will provide you and your team with certifications.</p>
+                        <h4 class="text-xl font-medium text-white">User-Friendly Interface</h4>
+                        <p class="text-base text-center text-gray-200">A clean and organized design with clear navigation helps users easily find what they need, reducing frustration and increasing user engagement.</p>
                     </div>
 
                     <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-transparent border border-white rounded-xl sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">
                         <div class="p-3 text-black bg-white rounded-full" data-primary="blue-500" data-rounded="rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <path d="M18 8a3 3 0 0 1 0 6" />
-                                <path d="M10 8v11a1 1 0 0 1 -1 1h-1a1 1 0 0 1 -1 -1v-5" />
-                                <path d="M12 8h0l4.524 -3.77a0.9 .9 0 0 1 1.476 .692v12.156a0.9 .9 0 0 1 -1.476 .692l-4.524 -3.77h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h8" />
-                            </svg>
+                            <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-box-select"><path d="M5 3a2 2 0 0 0-2 2"/><path d="M19 3a2 2 0 0 1 2 2"/><path d="M21 19a2 2 0 0 1-2 2"/><path d="M5 21a2 2 0 0 1-2-2"/><path d="M9 3h1"/><path d="M9 21h1"/><path d="M14 3h1"/><path d="M14 21h1"/><path d="M3 9v1"/><path d="M21 9v1"/><path d="M3 14v1"/><path d="M21 14v1"/></svg>
+
                         </div>
-                        <h4 class="text-xl font-medium text-white">Notifications</h4>
-                        <p class="text-base text-center text-gray-200">Send out notifications to all your customers to keep them engaged.</p>
+                        <h4 class="text-xl font-medium text-white">Responsive Design</h4>
+                        <p class="text-base text-center text-gray-200">Your web application should be responsive, meaning it adapts seamlessly to different devices and screen sizes.</p>
                     </div>
 
                     <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-transparent border border-white rounded-xl sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">
                         <div class="p-3 text-black bg-white rounded-full" data-primary="blue-500" data-rounded="rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3" />
-                                <line x1="12" y1="12" x2="20" y2="7.5" />
-                                <line x1="12" y1="12" x2="12" y2="21" />
-                                <line x1="12" y1="12" x2="4" y2="7.5" />
-                                <line x1="16" y1="5.25" x2="8" y2="9.75" />
-                            </svg>
+                            <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-loader"><line x1="12" x2="12" y1="2" y2="6"/><line x1="12" x2="12" y1="18" y2="22"/><line x1="4.93" x2="7.76" y1="4.93" y2="7.76"/><line x1="16.24" x2="19.07" y1="16.24" y2="19.07"/><line x1="2" x2="6" y1="12" y2="12"/><line x1="18" x2="22" y1="12" y2="12"/><line x1="4.93" x2="7.76" y1="19.07" y2="16.24"/><line x1="16.24" x2="19.07" y1="7.76" y2="4.93"/></svg>
                         </div>
-                        <h4 class="text-xl font-medium text-white">Bundles</h4>
-                        <p class="text-base text-center text-gray-200">High-quality bundles of awesome tools to help you out.</p>
+                        <h4 class="text-xl font-medium text-white">Fast Loading Times</h4>
+                        <p class="text-base text-center text-gray-200">Optimizing your application's loading times improves user experience and prevents potential users from abandoning your site due to slow performance.</p>
                     </div>
 
                     <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-transparent border border-white rounded-xl sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">
                         <div class="p-3 text-black bg-white rounded-full" data-primary="blue-500" data-rounded="rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <path d="M8 9l3 3l-3 3" />
-                                <line x1="13" y1="15" x2="16" y2="15" />
-                                <rect x="3" y="4" width="18" height="16" rx="2" />
-                            </svg>
+                            <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pencil-ruler"><path d="m15 5 4 4"/><path d="M13 7 8.7 2.7a2.41 2.41 0 0 0-3.4 0L2.7 5.3a2.41 2.41 0 0 0 0 3.4L7 13"/><path d="m8 6 2-2"/><path d="m2 22 5.5-1.5L21.17 6.83a2.82 2.82 0 0 0-4-4L3.5 16.5Z"/><path d="m18 16 2-2"/><path d="m17 11 4.3 4.3c.94.94.94 2.46 0 3.4l-2.6 2.6c-.94.94-2.46.94-3.4 0L11 17"/></svg>
                         </div>
-                        <h4 class="text-xl font-medium text-white">Developer Tools</h4>
-                        <p class="text-base text-center text-white">Developer tools to help grow your application and keep it up-to-date.</p>
+                        <h4 class="text-xl font-medium text-white">Personalize & Customize</h4>
+                        <p class="text-base text-center text-white">This might include personalized recommendations, user preferences, saved settings, and tailored content based on their past interactions with the application.</p>
                     </div>
 
                     <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-transparent border border-white rounded-xl sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">
                         <div class="p-3 text-black bg-white rounded-full" data-primary="blue-500" data-rounded="rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <line x1="9.5" y1="11" x2="9.51" y2="11" />
-                                <line x1="14.5" y1="11" x2="14.51" y2="11" />
-                                <path d="M9.5 15a3.5 3.5 0 0 0 5 0" />
-                                <path d="M7 5h1v-2h8v2h1a3 3 0 0 1 3 3v9a3 3 0 0 1 -3 3v1h-10v-1a3 3 0 0 1 -3 -3v-9a3 3 0 0 1 3 -3" />
-                            </svg>
+                            <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-panel-top"><rect width="18" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/></svg>
+
                         </div>
-                        <h4 class="text-xl font-medium text-white">Building Blocks</h4>
-                        <p class="text-base text-center text-gray-200">The right kind of building blocks to take your company to the next level.</p>
+                        <h4 class="text-xl font-medium text-white">Clear Call to Actions </h4>
+                        <p class="text-base text-center text-gray-200">Clearly define and place call-to-action buttons throughout your application. These prompts guide users towards desired actions such as making a purchase, or signing up for newsletters. </p>
                     </div>
 
                     <div class="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-transparent border border-white rounded-xl sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">
                         <div class="p-3 text-black bg-white rounded-full" data-primary="blue-500" data-rounded="rounded-full">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 " viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                <line x1="15" y1="5" x2="15" y2="7" />
-                                <line x1="15" y1="11" x2="15" y2="13" />
-                                <line x1="15" y1="17" x2="15" y2="19" />
-                                <path d="M5 5h14a2 2 0 0 1 2 2v3a2 2 0 0 0 0 4v3a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-3a2 2 0 0 0 0 -4v-3a2 2 0 0 1 2 -2" />
-                            </svg>
+                            <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search-check"><path d="m8 11 2 2 4-4"/><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
                         </div>
-                        <h4 class="text-xl font-medium text-white">Coupons</h4>
-                        <p class="text-base text-center text-gray-200">Coupons system to provide special offers and discounts for your app.</p>
+                        <h4 class="text-xl font-medium text-white">Robust Search and Navigation</h4>
+                        <p class="text-base text-center text-gray-200">Incorporate a powerful search function and well-organized navigation menu. Users should be able to quickly locate the information or products they're looking for.</p>
                     </div>
                 </div>
             </div>

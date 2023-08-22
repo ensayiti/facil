@@ -64,8 +64,8 @@
                             class="flex-col items-center w-full h-full p-3 overflow-hidden bg-black bg-opacity-50 rounded-lg select-none md:p-0 backdrop-blur-lg md:h-auto md:bg-transparent md:rounded-none md:relative md:flex md:flex-row md:overflow-auto">
                             <div
                                 class="flex flex-col items-center justify-end w-full h-full pt-2 md:w-full md:flex-row md:py-0">
-                                <a href="/admin" class="w-full py-5 mr-0 text-center text-gray-200 md:py-3 md:w-auto hover:text-white md:pl-0 md:mr-3 lg:mr-5">Sign In</a>
-                                <a href="#_" class="inline-flex items-center justify-center w-full px-4 py-3 md:py-1.5 font-medium leading-6 text-center whitespace-no-wrap transition duration-150 ease-in-out border border-transparent md:mr-1 text-gray-600 md:w-auto bg-white rounded-lg md:rounded-full hover:bg-white focus:outline-none focus:border-gray-700 focus:shadow-outline-gray active:bg-gray-700">Sign Up</a>
+                                {{-- <a href="/admin" class="w-full py-5 mr-0 text-center text-gray-200 md:py-3 md:w-auto hover:text-white md:pl-0 md:mr-3 lg:mr-5">Sign In</a> --}}
+                                <a href="/admin" class="inline-flex items-center justify-center w-full px-4 py-3 md:py-1.5 font-medium leading-6 text-center whitespace-no-wrap transition duration-300 ease-in-out border border-white md:mr-1 text-gray-600 md:w-auto bg-white rounded-lg md:rounded-full hover:bg-transparent hover:text-white focus:outline-none focus:border-gray-700 focus:shadow-outline-gray active:bg-gray-700">Sign In</a>
                             </div>
                         </div>
                     </div>
@@ -91,19 +91,21 @@
                     <div class="flex flex-col items-center md:flex-row">
 
                         <div class="w-full space-y-5 md:w-3/5 md:pr-16">
-                            <h2 class="text-white text-2xl font-extrabold leading-none text-black sm:text-3xl md:text-5xl">Changing The Way People Do Business.</h2>
-                            <p class="text-xl text-gray-200 md:pr-16">Learn how to engage with your visitors and teach them about your mission. We're revolutionizing the way customers and businesses interact.</p>
+                            <h2 class="text-white text-2xl font-extrabold leading-none text-black sm:text-3xl md:text-5xl">Change the way you organize your business.</h2>
+                            <p class="text-xl text-gray-200 md:pr-16">This web application was built to make it easier for you as a businessman. Can work quickly, precisely, and accurately!</p>
                         </div>
 
                         <div class="w-full mt-16 md:mt-0 md:w-2/5">
                             <div class="relative z-10 h-auto p-8 py-10 overflow-hidden bg-transparent border border-gray-300 backdrop-blur rounded-lg px-7" data-rounded="rounded-lg" data-rounded-max="rounded-full">
                                 <h3 class="mb-6 text-2xl font-medium text-center text-white ">Tell me!</h3>
-                                <input type="text" name="name" id="name" class="block w-full px-4 py-2 mb-4 border border border-white rounded-lg focus:ring focus:ring-blue-500 focus:outline-none transition duration-300" placeholder="Your Name">
-                                <input type="email" name="email" id="email" class="block w-full px-4 py-2 mb-4 border border-white rounded-lg focus:ring focus:ring-blue-500 focus:outline-none transition duration-300" placeholder="your@mail.com">
-                                <input type="text" name="subject" id="subject" class="block w-full px-4 py-2 mb-4 border border-white rounded-lg focus:ring focus:ring-blue-500 focus:outline-none transition duration-300" placeholder="Subject (e.g. Offers, Job)">
-                                <div class="block">
-                                    <button class="w-full px-4 py-2.5 font-medium text-black bg-white rounded-lg border border-white hover:text-white hover:bg-transparent transition duration-300" data-rounded="rounded-lg">Submit</button>
-                                </div>
+                                <form action="https://data.endpoint.space/clllrmt36001408l5ifh0ditk" method="POST">
+                                    <input type="text" name="name" id="name" class="block w-full px-4 py-2 mb-4 border border border-white rounded-lg focus:ring focus:ring-blue-500 focus:outline-none transition duration-300" placeholder="Your Name">
+                                    <input type="email" name="email" id="email" class="block w-full px-4 py-2 mb-4 border border-white rounded-lg focus:ring focus:ring-blue-500 focus:outline-none transition duration-300" placeholder="your@mail.com">
+                                    <input type="text" name="subject" id="subject" class="block w-full px-4 py-2 mb-4 border border-white rounded-lg focus:ring focus:ring-blue-500 focus:outline-none transition duration-300" placeholder="Subject (e.g. Offers, Job)">
+                                    <div class="block">
+                                        <button type="submit" class="w-full px-4 py-2.5 font-medium text-black bg-white rounded-lg border border-white hover:text-white hover:bg-transparent transition duration-300" data-rounded="rounded-lg">Submit</button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
 
